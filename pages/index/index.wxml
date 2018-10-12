@@ -1,0 +1,54 @@
+<!--index.wxml-->
+  <scroll-view class='scroll-view-style'>
+   <view class='header-style'> 
+     <view class="header-location-block"> 
+        <image class="header-location-img-left" bindtap='locationClick' src='../../img/location_icon.png'></image>
+        <text class="header-location-lable">当前位置：上海闵行区</text>
+        <image class="header-location-img-right" src='../../img/refresh_icon.png'></image>
+     </view>
+    <view class='header-jedan-shouru'>
+      <view class='header-jedan'>
+        <text class='header-jedan-number'>{{receveWaybillNumber}}</text>
+        <text class='header-jedan-lable'>已接运单</text>
+      </view>
+      <view class='header-shouru'>
+          <text class='header-shouru-number'>{{receveMoney}}</text>
+          <text class='header-shouru-lable'>接单收入(元)</text>
+      </view>
+     </view> 
+   </view>
+
+    <view class='bottom-view-style'>
+       <view class='bottom-view-head-view'>
+          <view class='bottom-view-near-lable'>附近需求</view>
+          <view>
+            <text class='bottom-view-more-lable'>更多</text>
+            <image class='bottom-view-right-arr-img' src='../../img/right_arr.png'></image>
+          </view>
+       </view>
+       <view class='bottom-view-bottom'>
+        <image class='bottom-view-near-null' src='../../img/near_need_null.png'></image>
+        <view class='bottom-view-noneed-lable'>暂无附近的需求</view>
+        <view class='bottom-view-changelocaton-lable'>您可以切换位置试试</view>
+       </view>
+    </view>
+
+     <view class='bottom-view-middle'>
+      <view class='bottom-view-more-service'>更多服务</view>
+      <view class='button-group'>
+          <block wx:for="{{items}}" wx:key="index">
+            <my-component inner-text="{{item.name}}"> </my-component>
+          </block>
+       </view>
+     </view>
+
+     <view class='bottom-view-end'>
+        <view class='header-jedan'>
+          <text class='bottom-view-end-title'>蓝骑士</text>
+          <text class='bottom-view-end-subtitle'>众包业务收入管理帮手</text>
+        </view>
+        <view class='header-shouru' style="border:none">
+            <image class="bottom-view-end-img"src='../../img/banner@3x.png'></image>
+        </view>
+     </view>
+  </scroll-view>

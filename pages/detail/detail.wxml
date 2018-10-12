@@ -1,0 +1,7 @@
+<!--pages/detail/detail.wxml-->
+<view style='background-color: #f0f0f0;'>
+  <block wx:for="{{article}}" wx:key="index">
+    <text class='text-style'>{{item.name}}</text>
+  </block>
+</view>
+

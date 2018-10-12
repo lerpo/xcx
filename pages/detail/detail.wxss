@@ -1,0 +1,7 @@
+/* pages/detail/detail.wxss */
+.text-style{
+  display: block;
+  padding: 15px;
+  background-color: white;
+  margin-top: 1px;
+}

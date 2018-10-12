@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "my-component":"../component/myComponent"
+  },
+  "navigationBarTitleText": "首页"
+}

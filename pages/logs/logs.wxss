@@ -1,0 +1,52 @@
+.mine_bg {
+  background-color: #f0f0f0;
+  height: 100%;
+}
+.mine_header_bg {
+  width: 100%;
+  padding-bottom: 20px;
+  text-align: center;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538284496954&di=4daf0e50df5f1faf0f5606f5418b52db&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fa1ec08fa513d26975c6a1e7b5ffbb2fb4316d85e.jpg)
+}
+.user_head_img {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+.user_info_lable {
+  color: white;
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.right_arr_img {
+  width: 15px;
+  height: 15px;
+  float: right;
+  margin-top: 5px;
+}
+.left_icon{
+  width: 20px;
+  height:20px;
+  margin-bottom: -5px;
+}
+.middle_text {
+  color: #333333;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.mine_item {
+  overflow: hidden;
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.item_line{
+  height: 10px;
+  background-color: #f0f0f0;
+}

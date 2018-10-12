@@ -1,0 +1,152 @@
+/**index.wxss**/
+.scroll-view-style {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #f0f0f0;
+}
+.header-style {
+  background-color: #5972C6;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.header-location-block {
+  /* display: flex;
+  flex-direction: row; */
+ 
+  overflow: hidden;
+}
+.header-location-img-left {
+  height: 16px;
+  width:16px;
+  margin-right: 15px;
+  margin-bottom: -3px;
+ 
+}
+.header-location-img-right {
+  height: 16px;
+  width:16px;
+  float: right;
+  margin-top: 5px;
+}
+.header-location-lable {
+  font-size: 12px;
+  color: white;
+  text-align: left;
+}
+.header-jedan-shouru {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 15px;
+  margin-top: 31px;
+}
+.header-jedan {
+    width: 50% ;
+    color: white;
+}
+.header-shouru {
+    width: 50%;
+    color: white;
+    border-left:solid 1px #f0f0f0;
+}
+.header-jedan-number{
+     display: block;
+     margin-bottom: 15px;
+     font-size: 26px;
+}
+
+.header-jedan-lable{
+     font-size: 12px;
+}
+
+.header-shouru-number{
+     display: block;
+     margin-bottom: 15px;
+     font-size: 26px;
+}
+
+.header-shouru-lable{
+     font-size: 12px;
+}
+
+.bottom-view-style{
+  background-color: white;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bottom-view-head-view{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.bottom-view-near-lable{
+  font-size: 15px;
+  color: #141514;
+}
+
+.bottom-view-more-lable{
+  font-size: 15px;
+  color: #5972C6;
+}
+.bottom-view-right-arr-img{
+   width: 15px;
+   height: 15px;
+}
+.bottom-view-near-null{
+  width: 180px;
+  height: 90px;
+}
+.bottom-view-bottom{
+  text-align: center
+}
+.bottom-view-noneed-lable{
+  font-size: 14px;
+  color: #565756;
+  margin-top: 5px;
+}
+.bottom-view-changelocaton-lable{
+  color: #8F908F;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.bottom-view-middle{
+   margin-top: 10px;
+   padding: 15px;
+   background-color: white;
+}
+
+.bottom-view-more-service{
+  font-size: 15px;
+  color: #141514;
+ 
+}
+.button-group{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bottom-view-end{
+  background-color: white;
+  margin-top: 10px;
+  padding: 15px;
+}
+.bottom-view-end-title{
+   font-size: 24px;
+   color: #5972C6;
+   display: block;
+}
+.bottom-view-end-subtitle{
+   color: #8F908F ;
+   font-size: 13px;
+}
+.bottom-view-end-img{
+  width: 303px;
+  height: 101px;
+}

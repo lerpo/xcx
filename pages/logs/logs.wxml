@@ -1,0 +1,15 @@
+<!--logs.wxml-->
+<view class='mine_bg'>
+  <view class='mine_header_bg'>
+    <image class='user_head_img' src='http://img.jgzyw.com:8000/d/img/touxiang/2015/01/08/2015010800135020962.jpg'></image>
+    <text class='user_info_lable'>严欢 156******89</text>
+  </view>
+  <block wx:for="{{itemData}}" wx:for-item="item" wx:key="index">
+    <view class='item_line' wx-if="{{index % 2 == 0}}"></view>
+    <view class='mine_item' bindtap='clickItem' data-no='{{index}}'>
+      <image class="left_icon" src='{{item.itemImg}}'></image>
+      <text class='middle_text'>{{item.itemText}}</text>
+      <image class='right_arr_img' src='../../img/right_arr.png'></image>
+    </view>
+  </block>
+</view>
